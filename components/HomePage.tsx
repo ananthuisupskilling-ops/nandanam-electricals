@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { ArrowRight, CheckCircle2, Menu, Phone, Shield, Sun, X, Zap } from "lucide-react";
 import { useState } from "react";
 import { commitments, company, contactCards, faqs, navItems, projectCapabilities, services, strengths, workTypes } from "@/data/site";
+import { landingPages } from "@/data/landing-pages";
 import { whatsappUrl } from "@/lib/utils";
 import { EnquiryForm } from "@/components/EnquiryForm";
 import { SectionHeading } from "@/components/SectionHeading";
@@ -240,6 +241,28 @@ export function HomePage() {
                 <h3 className="mt-4 text-lg font-bold text-navy">{strength.title}</h3>
                 <p className="mt-3 leading-7 text-graphite/70">{strength.text}</p>
               </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="section-pad bg-white">
+        <div className="mx-auto max-w-7xl px-4 md:px-6">
+          <SectionHeading
+            eyebrow="Service Areas"
+            title="Local solar and electrical services near Kayamkulam"
+            description="These focused service pages help customers and search engines understand the exact local services Nandanam Electricals provides."
+          />
+          <div className="mt-10 grid gap-5 md:grid-cols-3">
+            {landingPages.map((page) => (
+              <a
+                key={page.slug}
+                href={`/${page.slug}`}
+                className="rounded-lg border border-slate-100 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-soft"
+              >
+                <h3 className="text-xl font-bold text-navy">{page.title}</h3>
+                <p className="mt-3 leading-7 text-graphite/70">{page.description}</p>
+              </a>
             ))}
           </div>
         </div>
