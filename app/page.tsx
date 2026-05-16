@@ -7,6 +7,7 @@ export default function Page() {
       "@context": "https://schema.org",
       "@type": ["LocalBusiness", "Electrician"],
       name: company.name,
+      alternateName: company.alternateNames,
       description: company.description,
       url: company.siteUrl,
       telephone: `+${company.phone}`,

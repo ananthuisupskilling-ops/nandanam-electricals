@@ -141,6 +141,9 @@ export function HomePage() {
             <p className="mt-4 leading-7 text-graphite/75">
               The company supports customers with solar installation, maintenance, subsidy guidance, wiring, rewiring, repair, and complete electrical works. We work with residential, commercial, and industrial clients across Kerala.
             </p>
+            <p className="mt-4 leading-7 text-graphite/70">
+              Our Google Business Profile is listed as {company.googleBusinessName}, serving Kayamkulam, Pathiyoor, Menampally, and nearby areas.
+            </p>
           </div>
         </div>
       </section>

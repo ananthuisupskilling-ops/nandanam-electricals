@@ -30,7 +30,11 @@ export const metadata: Metadata = {
     "Solar subsidy Kerala",
     "Solar maintenance Kerala",
     "Hybrid solar system Kerala",
-    "On grid solar system Kerala"
+    "On grid solar system Kerala",
+    "Nandanam Electricals",
+    "Nandanam Electricals Engineers and Contractors",
+    "Nandanam Electricals Engineers and Contractors Ltd",
+    "Nandanam Electricals Kayamkulam"
   ],
   alternates: {
     canonical: "/"

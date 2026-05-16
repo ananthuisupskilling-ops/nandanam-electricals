@@ -20,6 +20,13 @@ import {
 
 export const company = {
   name: "Nandanam Electricals Engineers and Contractors",
+  googleBusinessName: "Nandanam Electricals Engineers and Contractors Ltd",
+  alternateNames: [
+    "Nandanam Electricals Engineers and Contractors Ltd",
+    "Nandanam Electricals Engineers & Contractors",
+    "Nandanam Electrical Engineers and Contractors",
+    "Nandanam Electricals Kayamkulam"
+  ],
   shortName: "Nandanam Electricals",
   founder: "Aji Kumar",
   founderTitle: "Retired Army Captain (Honorary)",
