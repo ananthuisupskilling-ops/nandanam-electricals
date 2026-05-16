@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Solar panels in Kerala landscape">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#8ec5ff"/>
+      <stop offset="0.55" stop-color="#dff4ff"/>
+      <stop offset="1" stop-color="#f7faf8"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" x2="1">
+      <stop offset="0" stop-color="#0b1f3a"/>
+      <stop offset="1" stop-color="#244f7d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <circle cx="1280" cy="145" r="78" fill="#f8c630"/>
+  <path d="M0 612c210-86 406-96 598-30 212 73 414 58 610-45 132-69 262-91 392-66v429H0z" fill="#14995f"/>
+  <path d="M0 698c185-52 375-48 570 12 203 62 430 53 681-25 128-40 244-48 349-25v240H0z" fill="#0b1f3a" opacity=".18"/>
+  <g transform="translate(122 430) skewX(-18)">
+    <rect x="0" y="0" width="1180" height="278" rx="12" fill="url(#panel)"/>
+    <g fill="none" stroke="#7fb7e8" stroke-width="4" opacity=".75">
+      <path d="M0 56h1180M0 112h1180M0 168h1180M0 224h1180"/>
+      <path d="M118 0v278M236 0v278M354 0v278M472 0v278M590 0v278M708 0v278M826 0v278M944 0v278M1062 0v278"/>
+    </g>
+    <rect x="0" y="0" width="1180" height="278" rx="12" fill="#fff" opacity=".08"/>
+  </g>
+  <g fill="#0b1f3a" opacity=".18">
+    <rect x="310" y="704" width="18" height="132"/>
+    <rect x="850" y="704" width="18" height="132"/>
+    <rect x="1190" y="704" width="18" height="132"/>
+  </g>
+</svg>

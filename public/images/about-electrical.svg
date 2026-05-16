@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 750" role="img" aria-label="Professional electrical and solar project planning">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f8c630"/>
+      <stop offset=".42" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#14995f"/>
+    </linearGradient>
+    <linearGradient id="navy" x1="0" x2="1">
+      <stop offset="0" stop-color="#0b1f3a"/>
+      <stop offset="1" stop-color="#224a73"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="750" fill="url(#bg)"/>
+  <rect x="90" y="96" width="820" height="558" rx="34" fill="#ffffff" opacity=".88"/>
+  <rect x="140" y="150" width="364" height="256" rx="18" fill="url(#navy)"/>
+  <g stroke="#78b7e9" stroke-width="4" opacity=".78">
+    <path d="M140 202h364M140 254h364M140 306h364M140 358h364"/>
+    <path d="M200 150v256M260 150v256M320 150v256M380 150v256M440 150v256"/>
+  </g>
+  <g fill="none" stroke="#0b1f3a" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M586 210h190c42 0 76 34 76 76v112" stroke-width="18"/>
+    <path d="M590 212l48-48m-47 49l49 48" stroke-width="16"/>
+    <path d="M742 502h72c36 0 66-30 66-66v-38" stroke-width="18"/>
+    <path d="M742 502l42-42m-42 42l42 42" stroke-width="16"/>
+  </g>
+  <g>
+    <circle cx="336" cy="526" r="64" fill="#14995f"/>
+    <path d="M310 528l22 22 42-52" fill="none" stroke="#fff" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g fill="#0b1f3a">
+    <rect x="548" y="478" width="126" height="24" rx="12"/>
+    <rect x="548" y="526" width="210" height="18" rx="9" opacity=".62"/>
+    <rect x="548" y="566" width="164" height="18" rx="9" opacity=".42"/>
+  </g>
+  <circle cx="801" cy="152" r="46" fill="#f8c630"/>
+</svg>

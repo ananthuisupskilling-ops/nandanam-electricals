@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 750" role="img" aria-label="Solar technician and solar panels">
+  <rect width="1000" height="750" fill="#e9f7ef"/>
+  <circle cx="780" cy="138" r="72" fill="#f8c630"/>
+  <path d="M0 522c154-70 309-80 466-30 185 58 363 42 534-50v308H0z" fill="#14995f"/>
+  <g transform="translate(80 355) skewX(-16)">
+    <rect width="650" height="210" rx="14" fill="#0b1f3a"/>
+    <g stroke="#8ac8f0" stroke-width="4" opacity=".75">
+      <path d="M0 42h650M0 84h650M0 126h650M0 168h650"/>
+      <path d="M81 0v210M162 0v210M243 0v210M324 0v210M405 0v210M486 0v210M567 0v210"/>
+    </g>
+  </g>
+  <g transform="translate(650 324)">
+    <circle cx="72" cy="60" r="45" fill="#25313f"/>
+    <rect x="34" y="112" width="96" height="154" rx="34" fill="#f8c630"/>
+    <path d="M28 160c-52 32-74 77-66 136" fill="none" stroke="#25313f" stroke-width="22" stroke-linecap="round"/>
+    <path d="M132 164c54 28 88 70 100 126" fill="none" stroke="#25313f" stroke-width="22" stroke-linecap="round"/>
+    <rect x="50" y="256" width="34" height="116" rx="17" fill="#25313f"/>
+    <rect x="102" y="256" width="34" height="116" rx="17" fill="#25313f"/>
+  </g>
+</svg>

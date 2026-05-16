@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 675" role="img" aria-label="Commercial electrical panel upgrade">
+  <rect width="900" height="675" fill="#f7faf8"/>
+  <rect x="130" y="96" width="640" height="476" rx="26" fill="#0b1f3a"/>
+  <rect x="182" y="152" width="536" height="94" rx="12" fill="#25313f"/>
+  <g fill="#f8c630">
+    <circle cx="250" cy="199" r="18"/>
+    <circle cx="320" cy="199" r="18"/>
+    <circle cx="390" cy="199" r="18"/>
+  </g>
+  <g stroke="#14995f" stroke-width="18" stroke-linecap="round">
+    <path d="M222 318h144"/>
+    <path d="M222 384h244"/>
+    <path d="M222 450h188"/>
+  </g>
+  <g fill="#fff" opacity=".9">
+    <rect x="548" y="300" width="104" height="52" rx="10"/>
+    <rect x="548" y="382" width="104" height="52" rx="10"/>
+    <rect x="548" y="464" width="104" height="52" rx="10"/>
+  </g>
+  <path d="M704 130l-52 138h84l-92 180 28-132h-78z" fill="#f8c630"/>
+</svg>

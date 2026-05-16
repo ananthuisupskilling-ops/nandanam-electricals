@@ -1,0 +1,32 @@
+services:
+  - type: web
+    name: nandanam-electricals
+    runtime: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm run start
+    envVars:
+      - key: NODE_VERSION
+        value: 22
+      - key: NEXT_PUBLIC_SITE_URL
+        sync: false
+      - key: NEXT_PUBLIC_COMPANY_PHONE
+        value: "919400134503"
+      - key: NEXT_PUBLIC_COMPANY_EMAIL
+        value: nandanam.eec@gmail.com
+      - key: NEXT_PUBLIC_GOOGLE_MAPS_EMBED_URL
+        value: https://www.google.com/maps?q=Nandanam%2C%20Menampally%2C%20Pathiyoor%20P.O.%2C%20Kayamkulam%2C%20Kerala%20690508&output=embed
+      - key: SMTP_HOST
+        sync: false
+      - key: SMTP_PORT
+        sync: false
+      - key: SMTP_SECURE
+        sync: false
+      - key: SMTP_USER
+        sync: false
+      - key: SMTP_PASS
+        sync: false
+      - key: ENQUIRY_TO_EMAIL
+        value: nandanam.eec@gmail.com
+      - key: ENQUIRY_FROM_EMAIL
+        sync: false

@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --font-inter: "Inter";
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #f7faf8;
+  color: #25313f;
+  font-family: Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: #f8c630;
+  color: #0b1f3a;
+}
+
+.section-pad {
+  padding: 88px 0;
+}
+
+@media (max-width: 768px) {
+  .section-pad {
+    padding: 64px 0;
+  }
+}

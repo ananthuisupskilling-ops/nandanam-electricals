@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 675" role="img" aria-label="Residential rooftop solar project">
+  <rect width="900" height="675" fill="#dff4ff"/>
+  <circle cx="735" cy="112" r="56" fill="#f8c630"/>
+  <path d="M80 374l370-210 370 210v220H80z" fill="#f7faf8"/>
+  <path d="M42 378l408-232 408 232" fill="none" stroke="#0b1f3a" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="220" y="352" width="460" height="142" rx="10" fill="#0b1f3a"/>
+  <g stroke="#7fb7e8" stroke-width="4" opacity=".75">
+    <path d="M220 399h460M220 446h460"/>
+    <path d="M296 352v142M372 352v142M448 352v142M524 352v142M600 352v142"/>
+  </g>
+  <rect x="390" y="500" width="120" height="94" fill="#14995f"/>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 675" role="img" aria-label="Solar project consultation planning">
+  <rect width="900" height="675" fill="#e9f7ef"/>
+  <rect x="120" y="94" width="660" height="488" rx="28" fill="#fff"/>
+  <rect x="176" y="154" width="300" height="204" rx="14" fill="#0b1f3a"/>
+  <g stroke="#8ac8f0" stroke-width="4">
+    <path d="M176 205h300M176 256h300M176 307h300"/>
+    <path d="M236 154v204M296 154v204M356 154v204M416 154v204"/>
+  </g>
+  <g fill="#0b1f3a">
+    <rect x="530" y="166" width="184" height="24" rx="12"/>
+    <rect x="530" y="222" width="132" height="18" rx="9" opacity=".55"/>
+    <rect x="530" y="268" width="164" height="18" rx="9" opacity=".55"/>
+    <rect x="176" y="420" width="538" height="20" rx="10" opacity=".45"/>
+    <rect x="176" y="476" width="372" height="20" rx="10" opacity=".3"/>
+  </g>
+  <circle cx="704" cy="438" r="64" fill="#14995f"/>
+  <path d="M676 440l22 22 44-54" fill="none" stroke="#fff" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
